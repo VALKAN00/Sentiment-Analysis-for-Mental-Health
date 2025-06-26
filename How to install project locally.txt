@@ -1,0 +1,31 @@
+## 🚀 Getting Started
+
+Follow these steps to set up and run the project locally.
+
+---
+
+## 📁 Project Structure
+
+1. Make sure that you are in project folder
+
+2. open the project on Vs-code 
+
+3. open new terminal (CMD) 
+
+4. Create a virtual environment
+	by using: python -m venv venv
+
+5. activate a virtual environment
+	by using: venv\Scripts\activate
+
+6. Install dependencies
+	by using: pip install -r requirements.txt
+
+7. Download NLTK resources
+	In a Python shell or notebook:
+		by using this 2 commands:
+			import nltk
+			nltk.download('punkt')
+
+8. Run the Flask API
+	by using: python app.py 
